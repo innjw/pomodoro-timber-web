@@ -20,8 +20,20 @@
       <button class="btn btn-reset">초기화</button>
     </div>
 
+    <div class="current-time" id="currentTime"></div>
     <a href="setting.html" class="btn-settings">⚙ 설정</a>
   </div>
   <script src="index.js"></script>
+  <script>
+    function updateTime() {
+      const now = new Date();
+      const h = String(now.getHours()).padStart(2, '0');
+      const m = String(now.getMinutes()).padStart(2, '0');
+      const s = String(now.getSeconds()).padStart(2, '0');
+      document.getElementById('currentTime').textContent = `${h}:${m}:${s}`;
+    }
+    updateTime();
+    setInterval(updateTime, 1000);
+  </script>
 </body>
 </html>
