@@ -1,0 +1,87 @@
+{
+  "version": "3.0",
+  "lastUpdated": "2026-05-18T13:25:24.203Z",
+  "activeFeatures": [
+    "2. pomodoro"
+  ],
+  "primaryFeature": "2. pomodoro",
+  "features": {
+    "2. pomodoro": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-05-18T12:59:57.683Z",
+        "lastUpdated": "2026-05-18T13:25:24.201Z"
+      },
+      "lastFile": "/Users/innjw/webdev/2. pomodoro/index.js"
+    }
+  },
+  "pipeline": {
+    "currentPhase": 1,
+    "level": "Dynamic",
+    "phaseHistory": []
+  },
+  "session": {
+    "startedAt": "2026-05-18T12:54:22.614Z",
+    "onboardingCompleted": false,
+    "lastActivity": "2026-05-18T13:25:24.203Z"
+  },
+  "history": [
+    {
+      "timestamp": "2026-05-18T12:59:57.685Z",
+      "feature": "2. pomodoro",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-05-18T13:19:14.349Z",
+      "feature": "2. pomodoro",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-05-18T13:19:29.096Z",
+      "feature": "2. pomodoro",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-05-18T13:22:08.949Z",
+      "feature": "2. pomodoro",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-05-18T13:22:21.684Z",
+      "feature": "2. pomodoro",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-05-18T13:25:24.203Z",
+      "feature": "2. pomodoro",
+      "phase": "do",
+      "action": "updated"
+    }
+  ],
+  "stateMachine": {
+    "defaultWorkflow": "default",
+    "activeWorkflows": {},
+    "totalTransitions": 0
+  },
+  "automation": {
+    "globalLevel": 2,
+    "trustScore": 40,
+    "pendingApprovals": 0,
+    "lastGateResult": null
+  },
+  "team": {
+    "enabled": true,
+    "stateFile": ".bkit/runtime/agent-state.json",
+    "eventsFile": ".bkit/runtime/agent-events.jsonl"
+  }
+}
